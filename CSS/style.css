@@ -61,18 +61,7 @@ footer{
    justify-content: center;
   }
 
-  .bg-img {
-    /* The image used */
-    background-image: url("C:\Users\admin\Desktop\WEB DEVELOPMENT\KeralaTourism\images\Ananthapura_Lake_Temple_2.jpg");
-    /* Control the height of the image */
-    min-height: 380px;
   
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
   
   /* Add styles to the form container */
   .container {

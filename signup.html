@@ -9,17 +9,22 @@
     <body background="./images/Serene_backwater_stretch_of_Akkulam_1.jpg">  
 
         <div class="bg">
-            <form action="/action_page.php" class="cont">
+            <form action="/action_page.php" class="cont" onsubmit="valid()">
               <h1>Sign Up</h1>
-          
+             
               <label for="email"><b>Email</b></label>
-              <input type="text" placeholder="Enter Email" name="email" required>
-          <br>
+              <input type="text" placeholder="Enter Email" name="email" required id="email">
+          <br>  
+        
+        
               <label for="psw"><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required>
+              <input type="password" placeholder="Enter Password" name="psw" required id="psw">
+              
             <br>  <label for="pswr"><b>Repeat Password</b></label>
-              <input type="password" placeholder="Repeat Password" name="pswr" required>
-           
+              <input type="password" placeholder="Repeat Password" name="pswr" required id="pswr"><br>
+              <label for="mob"><b>Mobile No</b></label><br>
+              <input type="number" placeholder="Enter Mobile Number" name="mob" required id="mob">
+           <br>
     <label>
         <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
       </label>
@@ -32,5 +37,6 @@
         
       </div>
     </div>
-  </form>
+  </form><script src="form.js"></script>
+
   </body></html>

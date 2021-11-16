@@ -12,7 +12,7 @@
 		var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 		if(uname =='')
 		{
-			alert("please enter user name.");
+			alert("please enter email");
 		}
 		else if(pwd=='')
 		{
@@ -22,13 +22,10 @@
 		{
 			alert("Enter valid email id.");
 		}
-		else if(pwd.length < 6 || pwd.length > 6)
-		{
-			alert("Password min and max length is 6.");
-		}
+		
 		else
 		{
-	alert('Thank You for Login & You are Redirecting to our districts');
+	alert('Login Successful');
   //Redirecting to other page or webste code or you can set your own html page.
     
 			}
@@ -97,7 +94,8 @@ body
 
    
   <input type="submit" value="Reset" onclick="clearFunc()" class="btn" />
-  <input type="submit" value="Login" class="btn" onClick="login()" /></td>
+  <input type="submit" value="Login" class="btn" onClick="login()" />
+</td>
   </tr>
   </table>
   <h5>Need an account?</h5>
